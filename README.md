@@ -4,7 +4,7 @@
 
 ## O que estou construindo
 
-**[Nexus](https://github.com/LuisGabriel102/rpg-api)** — RPG narrado por IA, deploy no Railway sobre Neon Postgres:
+**[Nexus](https://github.com/LuisGabriel102/rpg-api)** — RPG narrado por IA — FastAPI sobre Neon Postgres, empacotado para Railway:
 
 - **Narração multi-modelo:** Claude Opus como narrador principal, com prefixo de prompt cacheável byte-idêntico entre chamadas (latência e custo sob controle)
 - **Modelos pequenos como guardrail:** um Haiku valida cada narração (resposta de uma palavra), outro extrai fatos canônicos do turno em JSON estrito
